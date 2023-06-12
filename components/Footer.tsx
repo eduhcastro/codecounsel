@@ -62,7 +62,7 @@ const Footer = () => {
 
       <div>
         <ul className="mt-4 space-y-2" style={{ display: "flex", justifyContent: "space-evenly" }}>
-          <li><a href="/database" className="text-sm transition-colors text-scale-1100 hover:text-scale-1200  ">Source Code</a></li>
+          <li><a href="https://github.com/eduhcastro/codecounsel" target='__blank' className="text-sm transition-colors text-scale-1100 hover:text-scale-1200  ">Source Code</a></li>
           <li style={{ marginTop: "0px" }}><a href="https://www.linkedin.com/in/eduardo-castro-2a2427223/" target='__blank' className="text-sm transition-colors text-scale-1100 hover:text-scale-1200" >My Linkedin</a></li>
           <li style={{ marginTop: "0px" }}><a href="#" className="text-sm transition-colors text-scale-1100 hover:text-scale-1200" >Contributtion</a></li>
         </ul>
