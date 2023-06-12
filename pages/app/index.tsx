@@ -143,7 +143,7 @@ function IntegrationPartnersPage() {
   return (
     <>
       <Head>
-        <title>{meta_title} | For Devolopers</title>
+        <title>{meta_title} | For Developers</title>
         <meta name="description" content={meta_description}></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
