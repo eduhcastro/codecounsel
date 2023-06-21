@@ -33,8 +33,8 @@ module.exports = {
   },
   scale: {
     scale1: 'var(--colors-slate1)',
-    scale2: 'var(--colors-slate2)',
-    scale3: 'var(--colors-slate3)',
+    scale2: 'var(--background-white)',
+    scale3: 'var(--div-white)',
     scale4: 'var(--colors-slate4)',
     scale5: 'var(--colors-slate5)',
     scale6: 'var(--colors-slate6)',
@@ -61,8 +61,8 @@ module.exports = {
   },
   scaleDark: {
     scale1: 'var(--colors-gray1)',
-    scale2: 'var(--colors-gray2)',
-    scale3: 'var(--colors-gray3)',
+    scale2: 'var(--background-black)',
+    scale3: 'var(--div-black)',
     scale4: 'var(--colors-gray4)',
     scale5: 'var(--colors-gray5)',
     scale6: 'var(--colors-gray6)',

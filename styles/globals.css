@@ -22,10 +22,12 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
   @apply bg-scale-200;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border-radius: 1px;
 }
 
 /* h1,
@@ -225,98 +227,4 @@ table {
   @apply break-words;
 }
 
-
-
-
-:root {
-  --card-width: calc(var(65vh) / 1.5);
-}
-
-#template-editor,
-#preview-editor2 {
-  position: relative;
-  height: 500px;
-  width: 1000px;
-  left: 20px;
-}
-
-.elementos-principio {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-}
-
-
-.codigo-usuario {
-  background: #191c29;
-  width: var(--card-width);
-  height: var(65vh);
-  padding: 3px;
-  position: relative;
-  border-radius: 6px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-size: 1.5em;
-  color: rgb(88 199 250 / 0%);
-  font-family: cursive;
-}
-
-.codigo-usuario:hover {
-  color: rgb(88 199 250 / 100%);
-  transition: color 1s;
-}
-
-.codigo-usuario:hover:before,
-.codigo-usuario:hover:after {
-  animation: none;
-  opacity: 0;
-}
-
-.text-center {
-  margin-top: 10px;
-  text-align: center;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
-
-.view-line{
-  font-family: 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace !important;
-}
-
-.itsnone{
-  display: none;
-}
-
-.itsnone2{
-  display: none;
-}
-
-.animatedDiv {
-  transition: all .2s ease-in-out;
-  will-change: opacity,transform;
-  animation: Ab .3s cubic-bezier(.18,.89,.32,1.28);
-  -ms-transform-origin: top center;
-  transform-origin: top center;
-}
-
-@keyframes Ab {
-    0% {
-        transform: scale(.9) rotate3d(3,0,0,50deg);
-        opacity: 0
-    }
-
-    to {
-        transform: scale(1) rotateX(0)
-    }
-}
-
-.flexZ{
-  display: flex !important;
-}
-
-.monaco-editor .squiggly-error {
-  background-color: transparent;
-}
 

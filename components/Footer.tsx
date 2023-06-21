@@ -1,4 +1,3 @@
-import DarkModeToggle from './DarkModeToggle'
 import { useTheme } from '~/lib/theme'
 import Image from 'next/image'
 
@@ -69,7 +68,7 @@ const Footer = () => {
         <small className="small">Developed by Eduardo Castro, with the aim of helping us (junior developers) 2023</small>
       </div>
 
-      <DarkModeToggle />
+     
     </footer>
   )
 }

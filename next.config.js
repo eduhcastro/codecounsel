@@ -8,8 +8,8 @@ module.exports = {
     return [
       {
         permanent: false,
-        source: '/',
-        destination: '/app',
+        source: '/index',
+        destination: '/',
       },
     ]
   },

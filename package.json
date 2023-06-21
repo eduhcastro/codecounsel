@@ -1,6 +1,6 @@
 {
   "name": "codecounsel",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Personalized advice to elevate your scripts.",
   "license": "MIT",
   "scripts": {
@@ -17,6 +17,8 @@
     "@nextui-org/react": "^1.0.0-beta.13",
     "@supabase/supabase-js": "^1.33.3",
     "@supabase/ui": "^0.37.0-alpha.50",
+    "@tailwindui/react": "^0.1.1",
+    "@types/react-transition-group": "^4.4.6",
     "classnames": "^2.3.1",
     "marked": "^4.0.12",
     "monaco-editor-webpack-plugin": "^7.0.1",
@@ -25,7 +27,8 @@
     "openai": "^3.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "swiper": "^8.0.7",
+    "react-transition-group": "^4.4.5",
+    "swiper": "^8.4.7",
     "use-debounce": "^7.0.1"
   },
   "devDependencies": {

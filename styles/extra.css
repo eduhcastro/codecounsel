@@ -1,0 +1,351 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.13.1/Inter (web hinted latin)/Inter-Regular.woff') format('woff');
+}
+
+body {
+  transition: all 0.5s ease;
+}
+
+.dark {
+  --colors-scale3: #0c0d1257;
+}
+
+:root {
+  --background-black: rgba(15, 16, 22, 1);
+  --background-white: #fcfcfd;
+  --div-black: rgb(20, 23, 31);
+  --div-white: #f5f6f8;
+
+}
+
+
+
+.mr-3.ml-3 {
+  transition: all 0.5s ease;
+}
+
+
+.mr-3.ml-3:hover {
+  scale: 1.1;
+}
+
+.body-light {
+  transition: all 0.5s ease;
+  background: radial-gradient(circle, rgb(202 67 92) 10%, #fcfcfd 32%);
+}
+
+
+.contri-list>div:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.step-3 {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 24px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.contri-list {
+  flex: none;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.contri-list-user {
+  transition: all 0.5s ease;
+  border-radius: 99px;
+  bottom: 0;
+  flex: none;
+  left: 0;
+  overflow: hidden;
+  top: 0;
+  width: 40px;
+  will-change: transform;
+}
+
+.contr-text {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 150%;
+  text-align: center;
+  color: #333333;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.framer-1odvh4l {
+  border-radius: 99px;
+  bottom: 0;
+  flex: none;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  will-change: transform;
+}
+
+.framer-fet6me {
+  border-radius: 99px;
+  bottom: 0;
+  flex: none;
+  left: calc(50.00000000000002% - 40px / 2);
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 40px;
+  will-change: transform;
+}
+
+.comment {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.25px;
+  line-height: 150%;
+  color: #666666;
+  text-decoration: none;
+  text-transform: none;
+}
+
+
+.div-title {
+  flex: none;
+  height: auto;
+  position: relative;
+  white-space: pre-wrap;
+  width: 100%;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.framer-styles-preset-1wml6uu:not(.rich-text-wrapper),
+.framer-styles-preset-1wml6uu.rich-text-wrapper {
+  --framer-font-family: "Inter", sans-serif;
+  --framer-font-size: 48px;
+  --framer-font-style: normal;
+  --framer-font-weight: 600;
+  --framer-letter-spacing: -2px;
+  --framer-line-height: 110%;
+  --framer-paragraph-spacing: 40px;
+  --framer-text-alignment: start;
+  --framer-text-decoration: none;
+  --framer-text-transform: none;
+}
+
+
+p.framer-text,
+div.framer-text,
+h1.framer-text,
+h2.framer-text,
+h3.framer-text,
+h4.framer-text,
+h5.framer-text,
+h6.framer-text,
+li.framer-text,
+ol.framer-text,
+ul.framer-text,
+span.framer-text:not([data-text-fill]) {
+  font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
+  font-style: var(--framer-font-style, normal);
+  font-weight: var(--framer-font-weight, 400);
+  font-size: var(--framer-font-size, 16px);
+  letter-spacing: var(--framer-letter-spacing, 0);
+  text-transform: var(--framer-text-transform, none);
+  text-decoration: var(--framer-text-decoration, none);
+  line-height: var(--framer-line-height, 1.2em);
+  text-align: var(--framer-text-alignment, start);
+}
+
+.framer-1mu8xsg {
+  flex: none;
+  height: auto;
+  position: relative;
+  white-space: pre-wrap;
+  width: 100%;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.border-none {
+  border: none;
+}
+
+.item_code {
+  width: 430px;
+  height: max-content;
+  margin-right: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.item_code:hover {
+  cursor: pointer;
+  width: 500px;
+}
+
+.item_code.main {
+  width: 500px;
+  height: max-content;
+  margin-right: 10px;
+}
+
+.item_code.main:hover {
+  cursor: pointer;
+  width: 550px;
+}
+
+.button-start {
+  color: black !important;
+  margin-top: 25px !important;
+  transition: all 1.5s ease;
+}
+
+.button-start:hover {
+  color: white !important;
+  background: rgb(255, 0, 93) !important;
+  margin-top: 25px !important;
+}
+
+
+
+:root {
+  --card-width: calc(var(65vh) / 1.5);
+}
+
+#template-editor,
+#preview-editor2 {
+  position: relative;
+  height: 500px;
+  width: 1000px;
+  left: 20px;
+}
+
+.elementos-principio {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.codigo-usuario {
+  background: #191c29;
+  width: var(--card-width);
+  height: var(65vh);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  font-family: cursive;
+}
+
+.codigo-usuario:hover {
+  color: rgb(88 199 250 / 100%);
+  transition: color 1s;
+}
+
+.codigo-usuario:hover:before,
+.codigo-usuario:hover:after {
+  animation: none;
+  opacity: 0;
+}
+
+.text-center {
+  margin-top: 10px;
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+.view-line {
+  font-family: 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace !important;
+}
+
+.itsnone {
+  display: none;
+}
+
+.itsnone2 {
+  display: none;
+}
+
+.animatedDiv {
+  transition: all .2s ease-in-out;
+  will-change: opacity, transform;
+  animation: Ab .3s cubic-bezier(.18, .89, .32, 1.28);
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+}
+
+@keyframes Ab {
+  0% {
+    transform: scale(.9) rotate3d(3, 0, 0, 50deg);
+    opacity: 0
+  }
+
+  to {
+    transform: scale(1) rotateX(0)
+  }
+}
+
+.flexZ {
+  display: flex !important;
+}
+
+.monaco-editor .squiggly-error {
+  background-color: transparent;
+}
+
+
+.modal-animacao {
+  display: none;
+}
+
+.modal-animacao.active {
+  display: block;
+  transition: all .2s ease-in-out;
+  will-change: opacity, transform;
+  animation: Ab .3s cubic-bezier(.18, .89, .32, 1.28);
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+div.fixed.inset-0.overflow-y-auto {
+  position: inherit !important;
+}
+
+#Rendering {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
